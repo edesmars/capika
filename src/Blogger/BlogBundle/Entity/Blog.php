@@ -25,6 +25,11 @@ class Blog
      * @ORM\Column(type="string")
      */
     protected $title;
+    
+    /**
+     * @ORM\Column(type="string", length=100)
+     */
+    protected $my_new_colum_to_teset;
 
     /**
      * @ORM\Column(type="string", length=100)
