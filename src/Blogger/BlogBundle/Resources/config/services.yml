@@ -1,6 +1,6 @@
 parameters:
 #    blogger_blog.example.class: Blogger\BlogBundle\Example
-
+     blogger_blog.comments.latest_comment_limit: 10
 services:
 #    blogger_blog.example:
 #        class: %blogger_blog.example.class%
